@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6814F4352C3575D9001D96AB /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814F4342C3575D9001D96AB /* SecondViewViewController.swift */; };
 		68B2646E2C3336CE00734121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2646D2C3336CE00734121 /* AppDelegate.swift */; };
 		68B264702C3336CE00734121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2646F2C3336CE00734121 /* SceneDelegate.swift */; };
 		68B264722C3336CE00734121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264712C3336CE00734121 /* ViewController.swift */; };
@@ -17,8 +18,6 @@
 		68B2648F2C3336D000734121 /* AppHWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2648E2C3336D000734121 /* AppHWUITests.swift */; };
 		68B264912C3336D000734121 /* AppHWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264902C3336D000734121 /* AppHWUITestsLaunchTests.swift */; };
 		68B2649E2C337EAB00734121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B264732C3336CE00734121 /* Main.storyboard */; };
-		68B264A22C33812F00734121 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264A12C33812F00734121 /* SecondView.swift */; };
-		68B264A82C342F7500734121 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264A72C342F7500734121 /* View2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6814F4342C3575D9001D96AB /* SecondViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
 		68B2646A2C3336CE00734121 /* AppHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B2646D2C3336CE00734121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68B2646F2C3336CE00734121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +52,6 @@
 		68B2648A2C3336D000734121 /* AppHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B2648E2C3336D000734121 /* AppHWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHWUITests.swift; sourceTree = "<group>"; };
 		68B264902C3336D000734121 /* AppHWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHWUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		68B264A12C33812F00734121 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
-		68B264A72C342F7500734121 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +109,7 @@
 				68B264762C3336CF00734121 /* Assets.xcassets */,
 				68B264782C3336CF00734121 /* LaunchScreen.storyboard */,
 				68B2647B2C3336CF00734121 /* Info.plist */,
-				68B264A12C33812F00734121 /* SecondView.swift */,
-				68B264A72C342F7500734121 /* View2.swift */,
+				6814F4342C3575D9001D96AB /* SecondViewViewController.swift */,
 			);
 			path = AppHW;
 			sourceTree = "<group>";
@@ -266,10 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B264A82C342F7500734121 /* View2.swift in Sources */,
+				6814F4352C3575D9001D96AB /* SecondViewViewController.swift in Sources */,
 				68B264722C3336CE00734121 /* ViewController.swift in Sources */,
 				68B2646E2C3336CE00734121 /* AppDelegate.swift in Sources */,
-				68B264A22C33812F00734121 /* SecondView.swift in Sources */,
 				68B264702C3336CE00734121 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

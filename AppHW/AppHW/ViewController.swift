@@ -13,18 +13,37 @@ class ViewController: UIViewController {
     let adminLogin: String = "admin"
     let adminPassword: String = "admin"
     
+    let userLogin1: String = "user"
+    let userPassword1: String = "user"
+    
     @IBOutlet weak var userLogin: UITextField!
     @IBOutlet weak var userPassword: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "123"{
+            if let destVC = segue.destination as? SecondViewViewController{
+                destVC.password = userLogin.text!
+                destVC.login = userPassword.text!
+            }
+        }
+    }
+    
     @IBAction func buttonClicked(_ sender: Any) {
-        let vc = SecondView()
-//
-//        if userLogin.text == adminLogin && userPassword.text == adminPassword{
-            navigationController?.pushViewController(vc, animated: true)
-//        }
+        let vc = SecondViewViewController()
+        vc.config(password: userPassword.text!, login: userLogin.text!)
+
+        if userLogin.text == adminLogin && userPassword.text==adminPassword || userLogin.text == userLogin1 && userPassword.text == userPassword1{
+            performSegue(withIdentifier: "123", sender: nil)
+        }
+        else {
+            let alert = UIAlertController(title: "error", message: "wrong login or parrword", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "ok", style: .default, handler: nil))
+            self.present(alert, animated: true)
+        }
     }
 }
 
