@@ -16,6 +16,9 @@
 		68B264852C3336CF00734121 /* AppHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264842C3336CF00734121 /* AppHWTests.swift */; };
 		68B2648F2C3336D000734121 /* AppHWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B2648E2C3336D000734121 /* AppHWUITests.swift */; };
 		68B264912C3336D000734121 /* AppHWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264902C3336D000734121 /* AppHWUITestsLaunchTests.swift */; };
+		68B2649E2C337EAB00734121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B264732C3336CE00734121 /* Main.storyboard */; };
+		68B264A22C33812F00734121 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264A12C33812F00734121 /* SecondView.swift */; };
+		68B264A82C342F7500734121 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B264A72C342F7500734121 /* View2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		68B2648A2C3336D000734121 /* AppHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B2648E2C3336D000734121 /* AppHWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHWUITests.swift; sourceTree = "<group>"; };
 		68B264902C3336D000734121 /* AppHWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68B264A12C33812F00734121 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		68B264A72C342F7500734121 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 				68B264762C3336CF00734121 /* Assets.xcassets */,
 				68B264782C3336CF00734121 /* LaunchScreen.storyboard */,
 				68B2647B2C3336CF00734121 /* Info.plist */,
+				68B264A12C33812F00734121 /* SecondView.swift */,
+				68B264A72C342F7500734121 /* View2.swift */,
 			);
 			path = AppHW;
 			sourceTree = "<group>";
@@ -234,6 +241,7 @@
 				68B264772C3336CF00734121 /* Assets.xcassets in Resources */,
 				68B2647A2C3336CF00734121 /* Base in Resources */,
 				68B264752C3336CE00734121 /* Base in Resources */,
+				68B2649E2C337EAB00734121 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68B264A82C342F7500734121 /* View2.swift in Sources */,
 				68B264722C3336CE00734121 /* ViewController.swift in Sources */,
 				68B2646E2C3336CE00734121 /* AppDelegate.swift in Sources */,
+				68B264A22C33812F00734121 /* SecondView.swift in Sources */,
 				68B264702C3336CE00734121 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

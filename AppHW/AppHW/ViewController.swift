@@ -7,13 +7,26 @@
 
 import UIKit
 
+var users = ["admin admin":["adminImg","admin","10.10.10","+555555","Я создатель"]]
 class ViewController: UIViewController {
-
+    
+    let adminLogin: String = "admin"
+    let adminPassword: String = "admin"
+    
+    @IBOutlet weak var userLogin: UITextField!
+    @IBOutlet weak var userPassword: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    @IBAction func buttonClicked(_ sender: Any) {
+        let vc = SecondView()
+//
+//        if userLogin.text == adminLogin && userPassword.text == adminPassword{
+            navigationController?.pushViewController(vc, animated: true)
+//        }
+    }
 }
+
+
 
